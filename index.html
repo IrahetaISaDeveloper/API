@@ -43,6 +43,26 @@
         </tbody>
       </table>
     </main>
+    <!--Modal para agregar integrantes-->
+    <dialog id="modal-agregar">
+      <article>
+          <header>
+              <a href="#" class="close" id="btnCerrarModal"></a>
+              <h3>Agregar  Integrante</h3>
+          </header>
+          <form id="frmAgregar">
+              <input type="text" id="nombre" placeholder="Nombre" required>
+              <input type="text" id="apellido" placeholder="Apellido" required>
+              <input type="email" id="email" placeholder="Correo Electronico" required>
+              <input type="number" id="edad" placeholder="Edad" required>
+              <button type="submit" class="constrast">Guardar</button>
+          </form>
+      </article>
+  </dialog>
+    <!--Boton flotante para agregar registros-->
+    <button class="add-button" id="btnAbrirModal" title="Agregar Integrante">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+    </button>
     <script src="JS/script.js"></script>
   </body>
 </html>
