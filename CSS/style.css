@@ -1,7 +1,7 @@
 .add-button{
     position: fixed; /*El botón queda encima del contenido, flotante*/ 
-    top: 20px;/*Desde abajo 20 px*/
-    right: 35px; /*Desde la derecha, 25 px*/
+    bottom: 30px;/*Desde abajo 20 px*/
+    right: 25px; /*Desde la derecha, 25 px*/
     background-color: gray;
     border-radius: 50%;
     color: white;
@@ -16,4 +16,8 @@
 
 .add-button:hover{
     transform: scale(1.1);
+}
+
+.tabla-scroll{
+    overflow-x: auto;
 }
